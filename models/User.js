@@ -37,10 +37,10 @@ const UserSchema = new mongoose.Schema(
         occupation: String,
         viewedProfile: Number,
         imprressions: Number
-    },{
-        timestamps: true
-    }
+    },
+    { timestamps: true }
 );
 
 const User = mongoose.model('User', UserSchema);
+
 export default User;
